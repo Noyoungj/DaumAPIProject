@@ -10,13 +10,17 @@
 		286E50192A1CA58100EA6B75 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286E50182A1CA58100EA6B75 /* AppDelegate.swift */; };
 		286E501B2A1CA58100EA6B75 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286E501A2A1CA58100EA6B75 /* SceneDelegate.swift */; };
 		286E501D2A1CA58100EA6B75 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286E501C2A1CA58100EA6B75 /* ViewController.swift */; };
-		286E50202A1CA58100EA6B75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 286E501E2A1CA58100EA6B75 /* Main.storyboard */; };
 		286E50232A1CA58100EA6B75 /* DaumSearch.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 286E50212A1CA58100EA6B75 /* DaumSearch.xcdatamodeld */; };
 		286E50252A1CA58300EA6B75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 286E50242A1CA58300EA6B75 /* Assets.xcassets */; };
 		286E50282A1CA58300EA6B75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 286E50262A1CA58300EA6B75 /* LaunchScreen.storyboard */; };
 		286E50332A1CA58300EA6B75 /* DaumSearchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286E50322A1CA58300EA6B75 /* DaumSearchTests.swift */; };
 		286E503D2A1CA58300EA6B75 /* DaumSearchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286E503C2A1CA58300EA6B75 /* DaumSearchUITests.swift */; };
 		286E503F2A1CA58300EA6B75 /* DaumSearchUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286E503E2A1CA58300EA6B75 /* DaumSearchUITestsLaunchTests.swift */; };
+		28AB88112A1CEA5200E51195 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AB88102A1CEA5200E51195 /* BaseViewController.swift */; };
+		28AB88152A1CEAAE00E51195 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AB88142A1CEAAE00E51195 /* MainCoordinator.swift */; };
+		28AB88182A1CF83400E51195 /* MyPakage in Frameworks */ = {isa = PBXBuildFile; productRef = 28AB88172A1CF83400E51195 /* MyPakage */; };
+		28C6CAAC2A3FEA610081447D /* MenuCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C6CAAB2A3FEA610081447D /* MenuCollectionViewCell.swift */; };
+		28C6CAAE2A3FFF240081447D /* ContentCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C6CAAD2A3FFF240081447D /* ContentCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +45,6 @@
 		286E50182A1CA58100EA6B75 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		286E501A2A1CA58100EA6B75 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		286E501C2A1CA58100EA6B75 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		286E501F2A1CA58100EA6B75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		286E50222A1CA58100EA6B75 /* DaumSearch.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DaumSearch.xcdatamodel; sourceTree = "<group>"; };
 		286E50242A1CA58300EA6B75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		286E50272A1CA58300EA6B75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -52,6 +55,10 @@
 		286E503C2A1CA58300EA6B75 /* DaumSearchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaumSearchUITests.swift; sourceTree = "<group>"; };
 		286E503E2A1CA58300EA6B75 /* DaumSearchUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaumSearchUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		286E504C2A1CE8C200EA6B75 /* MyPakage */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = MyPakage; path = ../MyPakage; sourceTree = "<group>"; };
+		28AB88102A1CEA5200E51195 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		28AB88142A1CEAAE00E51195 /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		28C6CAAB2A3FEA610081447D /* MenuCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCollectionViewCell.swift; sourceTree = "<group>"; };
+		28C6CAAD2A3FFF240081447D /* ContentCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28AB88182A1CF83400E51195 /* MyPakage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +95,7 @@
 				286E50312A1CA58300EA6B75 /* DaumSearchTests */,
 				286E503B2A1CA58300EA6B75 /* DaumSearchUITests */,
 				286E50162A1CA58100EA6B75 /* Products */,
+				28AB88162A1CF83000E51195 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,14 +112,16 @@
 		286E50172A1CA58100EA6B75 /* DaumSearch */ = {
 			isa = PBXGroup;
 			children = (
-				286E50182A1CA58100EA6B75 /* AppDelegate.swift */,
-				286E501A2A1CA58100EA6B75 /* SceneDelegate.swift */,
+				28AB88132A1CEA9E00E51195 /* Coordinator */,
+				28AB880F2A1CEA3900E51195 /* Configuration */,
+				28AB880E2A1CE9FB00E51195 /* Application */,
 				286E501C2A1CA58100EA6B75 /* ViewController.swift */,
-				286E501E2A1CA58100EA6B75 /* Main.storyboard */,
 				286E50242A1CA58300EA6B75 /* Assets.xcassets */,
 				286E50262A1CA58300EA6B75 /* LaunchScreen.storyboard */,
 				286E50292A1CA58300EA6B75 /* Info.plist */,
 				286E50212A1CA58100EA6B75 /* DaumSearch.xcdatamodeld */,
+				28C6CAAB2A3FEA610081447D /* MenuCollectionViewCell.swift */,
+				28C6CAAD2A3FFF240081447D /* ContentCollectionViewCell.swift */,
 			);
 			path = DaumSearch;
 			sourceTree = "<group>";
@@ -132,6 +143,46 @@
 			path = DaumSearchUITests;
 			sourceTree = "<group>";
 		};
+		28AB880E2A1CE9FB00E51195 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				286E50182A1CA58100EA6B75 /* AppDelegate.swift */,
+				286E501A2A1CA58100EA6B75 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		28AB880F2A1CEA3900E51195 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				28AB88122A1CEA6100E51195 /* Base */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		28AB88122A1CEA6100E51195 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				28AB88102A1CEA5200E51195 /* BaseViewController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		28AB88132A1CEA9E00E51195 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				28AB88142A1CEAAE00E51195 /* MainCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		28AB88162A1CF83000E51195 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -148,6 +199,9 @@
 			dependencies = (
 			);
 			name = DaumSearch;
+			packageProductDependencies = (
+				28AB88172A1CF83400E51195 /* MyPakage */,
+			);
 			productName = DaumSearch;
 			productReference = 286E50152A1CA58100EA6B75 /* DaumSearch.app */;
 			productType = "com.apple.product-type.application";
@@ -238,7 +292,6 @@
 			files = (
 				286E50282A1CA58300EA6B75 /* LaunchScreen.storyboard in Resources */,
 				286E50252A1CA58300EA6B75 /* Assets.xcassets in Resources */,
-				286E50202A1CA58100EA6B75 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,7 +316,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28AB88112A1CEA5200E51195 /* BaseViewController.swift in Sources */,
+				28C6CAAC2A3FEA610081447D /* MenuCollectionViewCell.swift in Sources */,
+				28AB88152A1CEAAE00E51195 /* MainCoordinator.swift in Sources */,
 				286E50232A1CA58100EA6B75 /* DaumSearch.xcdatamodeld in Sources */,
+				28C6CAAE2A3FFF240081447D /* ContentCollectionViewCell.swift in Sources */,
 				286E501D2A1CA58100EA6B75 /* ViewController.swift in Sources */,
 				286E50192A1CA58100EA6B75 /* AppDelegate.swift in Sources */,
 				286E501B2A1CA58100EA6B75 /* SceneDelegate.swift in Sources */,
@@ -303,14 +360,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		286E501E2A1CA58100EA6B75 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				286E501F2A1CA58100EA6B75 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		286E50262A1CA58300EA6B75 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -447,7 +496,6 @@
 				INFOPLIST_FILE = DaumSearch/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -474,7 +522,6 @@
 				INFOPLIST_FILE = DaumSearch/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -602,6 +649,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		28AB88172A1CF83400E51195 /* MyPakage */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = MyPakage;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		286E50212A1CA58100EA6B75 /* DaumSearch.xcdatamodeld */ = {
