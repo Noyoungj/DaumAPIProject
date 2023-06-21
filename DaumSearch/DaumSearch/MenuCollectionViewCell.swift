@@ -51,7 +51,7 @@ class MenuCollectionViewCell: UICollectionViewCell {
     //MARK: Configure
     override var isSelected: Bool {
         willSet {
-            if isSelected {
+            if newValue {
                 labelMenu.textColor = .black
             } else {
                 labelMenu.textColor = .lightGray
