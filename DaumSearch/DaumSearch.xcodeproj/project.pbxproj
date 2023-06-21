@@ -21,7 +21,8 @@
 		28A5C1A62A42FB3300DF7650 /* SearchBlogModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A5C1A52A42FB3300DF7650 /* SearchBlogModel.swift */; };
 		28A5C1A82A42FB5D00DF7650 /* SearchVClipModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A5C1A72A42FB5D00DF7650 /* SearchVClipModel.swift */; };
 		28A5C1AA2A42FB9500DF7650 /* SearchMeta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A5C1A92A42FB9500DF7650 /* SearchMeta.swift */; };
-		28A5C1AD2A42FD6900DF7650 /* SearchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A5C1AC2A42FD6900DF7650 /* SearchService.swift */; };
+		28A5C1AD2A42FD6900DF7650 /* SearchImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A5C1AC2A42FD6900DF7650 /* SearchImageService.swift */; };
+		28A5C1B42A4308B200DF7650 /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A5C1B32A4308B200DF7650 /* SearchViewModel.swift */; };
 		28AB88112A1CEA5200E51195 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AB88102A1CEA5200E51195 /* BaseViewController.swift */; };
 		28AB88152A1CEAAE00E51195 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AB88142A1CEAAE00E51195 /* MainCoordinator.swift */; };
 		28AB88182A1CF83400E51195 /* MyPakage in Frameworks */ = {isa = PBXBuildFile; productRef = 28AB88172A1CF83400E51195 /* MyPakage */; };
@@ -66,7 +67,8 @@
 		28A5C1A52A42FB3300DF7650 /* SearchBlogModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBlogModel.swift; sourceTree = "<group>"; };
 		28A5C1A72A42FB5D00DF7650 /* SearchVClipModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVClipModel.swift; sourceTree = "<group>"; };
 		28A5C1A92A42FB9500DF7650 /* SearchMeta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchMeta.swift; sourceTree = "<group>"; };
-		28A5C1AC2A42FD6900DF7650 /* SearchService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchService.swift; sourceTree = "<group>"; };
+		28A5C1AC2A42FD6900DF7650 /* SearchImageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchImageService.swift; sourceTree = "<group>"; };
+		28A5C1B32A4308B200DF7650 /* SearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
 		28AB88102A1CEA5200E51195 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		28AB88142A1CEAAE00E51195 /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
 		28C6CAAB2A3FEA610081447D /* MenuCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -124,6 +126,7 @@
 		286E50172A1CA58100EA6B75 /* DaumSearch */ = {
 			isa = PBXGroup;
 			children = (
+				28A5C1B22A43089F00DF7650 /* ViewModel */,
 				28A5C1AB2A42FD5200DF7650 /* Service */,
 				28A5C1A22A42F57000DF7650 /* Model */,
 				28A5C19F2A42F3B900DF7650 /* Network */,
@@ -180,9 +183,17 @@
 		28A5C1AB2A42FD5200DF7650 /* Service */ = {
 			isa = PBXGroup;
 			children = (
-				28A5C1AC2A42FD6900DF7650 /* SearchService.swift */,
+				28A5C1AC2A42FD6900DF7650 /* SearchImageService.swift */,
 			);
 			path = Service;
+			sourceTree = "<group>";
+		};
+		28A5C1B22A43089F00DF7650 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				28A5C1B32A4308B200DF7650 /* SearchViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		28AB880E2A1CE9FB00E51195 /* Application */ = {
@@ -364,12 +375,13 @@
 				286E50232A1CA58100EA6B75 /* DaumSearch.xcdatamodeld in Sources */,
 				28C6CAAE2A3FFF240081447D /* ContentCollectionViewCell.swift in Sources */,
 				28A5C1A42A42F57A00DF7650 /* SearchImageModel.swift in Sources */,
+				28A5C1B42A4308B200DF7650 /* SearchViewModel.swift in Sources */,
 				28A5C1AA2A42FB9500DF7650 /* SearchMeta.swift in Sources */,
 				28A5C1A82A42FB5D00DF7650 /* SearchVClipModel.swift in Sources */,
 				286E501D2A1CA58100EA6B75 /* ViewController.swift in Sources */,
 				286E50192A1CA58100EA6B75 /* AppDelegate.swift in Sources */,
 				28A5C1A12A42F3C800DF7650 /* MainAPI.swift in Sources */,
-				28A5C1AD2A42FD6900DF7650 /* SearchService.swift in Sources */,
+				28A5C1AD2A42FD6900DF7650 /* SearchImageService.swift in Sources */,
 				28A5C1A62A42FB3300DF7650 /* SearchBlogModel.swift in Sources */,
 				286E501B2A1CA58100EA6B75 /* SceneDelegate.swift in Sources */,
 			);
