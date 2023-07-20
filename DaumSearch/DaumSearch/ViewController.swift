@@ -6,11 +6,14 @@
 //
 
 import UIKit
+import RxSwift
 
 class ViewController: BaseViewController {
     //MARK: Property
     var coordinator : Coordinator?
     var direction = 0
+    let viewModelSearch: SearchViewModel
+    let disposeBag = DisposeBag()
     
     let textFieldSearch : UITextField = {
         let textField = UITextField()
@@ -66,10 +69,20 @@ class ViewController: BaseViewController {
     }()
     
     //MARK: Life Cycle
+    init(viewModel: SearchViewModel) {
+        self.viewModelSearch = viewModel
+        super.init(nibName: nil, bundle: nil)
+    }
+    
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         configure()
+        subscribe()
     }
     
     //MARK: Configure
@@ -120,6 +133,12 @@ class ViewController: BaseViewController {
             make.leading.trailing.bottom.equalTo(self.view.safeAreaLayoutGuide)
             make.top.equalTo(self.collectionViewUpper.snp.bottom)
         }
+    }
+    
+    func subscribe() {
+        self.viewModelSearch.fetchISearch("K", "accuracy").subscribe(onNext: { [weak self] viewmodel in
+            print(viewmodel)
+        }).disposed(by: self.disposeBag)
     }
 }
 

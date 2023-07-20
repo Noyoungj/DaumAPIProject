@@ -20,7 +20,7 @@ final class MainCoordinator: Coordinator {
     }
     
     func start() {
-        let viewController = ViewController()
+        let viewController = ViewController(viewModel: SearchViewModel(searchService: SearchService()))
         viewController.coordinator = self
         self.navigationController.viewControllers = [viewController]
     }
